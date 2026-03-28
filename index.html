@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LatinMundo — Productos Latinos en España</title>
+  <meta name="description" content="Tu tienda de alimentación latina en Torrevieja. Yerba mate, bebidas, frutas exóticas, despensa latina y mucho más. Síguenos en @latinmundo_oficial.">
+  <meta property="og:title" content="LatinMundo — Alimentación Latina">
+  <meta property="og:description" content="Tu tienda de productos latinos en Torrevieja">
+  <meta property="og:type" content="website">
+
+  <!-- FAVICON CON TU PNG -->
+ <link rel="icon" type="image/png" href="S(1).png">
+
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="admin.css">
+
+  <!-- LOGO REDONDO CON CSS -->
+  <style>
+    .logo-mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #c68e00;
+      background: #1a6641;
+      box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
+    }
+
+    /* Versión más grande para el header principal si quieres */
+    .header .logo-mark {
+      width: 44px;
+      height: 44px;
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"GroceryStore","name":"LatinMundo","description":"Tienda de alimentación latina en España.","url":"https://alimentacionsupermundo.es","telephone":"+34865787846","email":"supermundo2021@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Avda. Diego Ramirez Pastor, 118","postalCode":"03182","addressCountry":"ES"},"sameAs":["https://www.instagram.com/latinmundo_oficial/"],"creator":{"@type":"SoftwareApplication","name":"Perplexity Computer","url":"https://www.perplexity.ai/computer"}}
+  </script>
+</head>
+<body>
+
+<!-- ======================================================
+     VISTA: CATÁLOGO
+     ====================================================== -->
+<div id="view-catalog">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="LatinMundo - Inicio">
+        <!-- LOGO PNG REDONDO -->
+        <img src="S(1).png" alt="LatinMundo" class="logo-mark">
+        <div class="logo-text">
+          <span class="logo-name">LatinMundo</span>
+          <span class="logo-sub">Alimentación Latina</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="main-nav" role="navigation" aria-label="Navegación principal">
+        <a href="#" class="nav-link active">Catálogo</a>
+        <a href="https://www.instagram.com/latinmundo_oficial/" target="_blank" rel="noopener" class="nav-link">Instagram</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn-icon" data-theme-toggle aria-label="Cambiar tema">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <button class="mobile-menu-btn btn-icon" id="mobile-menu-btn" aria-label="Abrir menú">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Bienvenida">
+    <div class="hero-pattern" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Productos Auténticos Latinoamericanos
+      </div>
+      <h1>Aquí en <span>LatinMundo</span><br>tu sabor de casa</h1>
+      <p class="hero-desc">Desde calderos de aluminio típicos y quesos artesanales, hasta yerba mate, bebidas premium y toda la despensa latina que buscas — todo en un solo lugar.</p>
+      <div class="hero-actions">
+        <a href="#catalogo" class="btn-primary">
+          Ver Catálogo
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://www.instagram.com/latinmundo_oficial/" target="_blank" rel="noopener" class="btn-outline-white">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          @latinmundo_oficial
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-num">+100</span>
+        <span class="hero-stat-label">Productos</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">6+</span>
+        <span class="hero-stat-label">Países origen</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">Torrevieja</span>
+        <span class="hero-stat-label">Estamos aquí</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRANJA DE CARACTERÍSTICAS -->
+  <div class="features-strip">
+    <div class="features-strip-inner">
+      <div class="feature-item">
+        <div class="feature-icon">🧉</div>
+        <div class="feature-text"><strong>Yerba mate</strong>CBSé, Canarias, Kurupí</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🌽</div>
+        <div class="feature-text"><strong>Despensa latina</strong>Maizena, frijoles, arroz</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🐟</div>
+        <div class="feature-text"><strong>Frescos del día</strong>Tilapia, plátano, yuca</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🥃</div>
+        <div class="feature-text"><strong>Bebidas premium</strong>Whisky, licores, refrescos</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÚSQUEDA -->
+  <section class="search-section" id="catalogo" aria-label="Búsqueda y filtros">
+    <div class="search-wrap">
+      <div class="search-bar-main">
+        <div class="search-input-wrap">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input
+            id="search-input"
+            type="search"
+            class="search-input"
+            placeholder="Busca por producto, etiqueta... ej: conservas, yerba mate, fresco"
+            aria-label="Buscar productos"
+            autocomplete="off"
+          >
+          <button class="search-clear" onclick="clearSearch()" aria-label="Borrar búsqueda" title="Borrar">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="tag-section">
+        <p class="tag-label">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+          Filtrar por etiqueta
+        </p>
+        <div class="tag-cloud" id="tag-cloud" role="list" aria-label="Etiquetas de productos"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <main class="catalog-main" aria-label="Catálogo de productos">
+    <div class="catalog-header">
+      <div>
+        <h2 class="products-title">Todos los Productos</h2>
+        <p class="products-count" id="products-count" aria-live="polite">Cargando...</p>
+      </div>
+      <select class="sort-select" id="sort-select" aria-label="Ordenar">
+        <option value="default">Orden por defecto</option>
+        <option value="az">Nombre A → Z</option>
+        <option value="za">Nombre Z → A</option>
+      </select>
+    </div>
+    <div class="products-grid" id="products-grid" role="list"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <!-- LOGO PNG REDONDO EN FOOTER -->
+          <img src="S(1).png" alt="LatinMundo" class="logo-mark">
+          <span class="logo-name">LatinMundo</span>
+        </a>
+        <p>Tu tienda de alimentación latina en España. Productos auténticos de toda Latinoamérica.</p>
+        <div class="footer-contact-list">
+          <a href="tel:+34865787846" class="footer-contact-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            865 787 846
+          </a>
+          <a href="mailto:supermundo2021@gmail.com" class="footer-contact-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            supermundo2021@gmail.com
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Avda.+Diego+Ramirez+Pastor+118+03182+Torrevieja" target="_blank" rel="noopener" class="footer-contact-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Avda. Diego Ramirez Pastor, 118 — 03182
+          </a>
+        </div>
+        <div class="social-links" style="margin-top:var(--space-4);">
+          <a href="https://www.instagram.com/latinmundo_oficial/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col-title">Tienda</p>
+        <ul class="footer-links">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="https://www.instagram.com/latinmundo_oficial/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Contacto</p>
+        <ul class="footer-links">
+          <li><a href="https://www.instagram.com/latinmundo_oficial/" target="_blank" rel="noopener">DM en Instagram</a></li>
+          <li style="color:var(--color-text-muted);font-size:var(--text-sm);">Visítanos en tienda</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 LatinMundo. Todos los derechos reservados.</p>
+      <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+    </div>
+  </footer>
+
+</div><!-- /view-catalog -->
+
+
+<!-- ======================================================
+     VISTA: ADMIN
+     ====================================================== -->
+<div id="view-admin" style="display:none;">
+
+  <!-- LOGIN -->
+  <div id="admin-login-screen" class="login-screen" style="display:flex;">
+    <div class="login-card">
+      <div class="login-logo">
+        <!-- LOGO PNG REDONDO EN ADMIN LOGIN -->
+        <img src="S(1).png" alt="LatinMundo" class="logo-mark">
+        <span style="font-family:var(--font-display);font-size:var(--text-lg);font-weight:700;color:var(--color-primary);">LatinMundo</span>
+      </div>
+      <h1>Panel de Administración</h1>
+      <p>Introduce la contraseña para gestionar el catálogo.</p>
+      <form id="login-form" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="login-password">Contraseña</label>
+          <input type="password" id="login-password" class="form-input" placeholder="••••••••••••" autocomplete="current-password" required>
+          <p id="login-error" class="form-error" style="display:none;">Contraseña incorrecta. Inténtalo de nuevo.</p>
+        </div>
+        <button type="submit" class="btn-login">Entrar al panel</button>
+      </form>
+      <p style="text-align:center;margin-top:var(--space-6);font-size:var(--text-xs);color:var(--color-text-faint);">
+        Contraseña por defecto: <strong style="color:var(--color-text-muted);"></strong>
+      </p>
+      <div style="text-align:center;margin-top:var(--space-3);">
+        <a href="javascript:void(0)" onclick="showView('catalog')" style="font-size:var(--text-sm);color:var(--color-text-faint);">← Volver al catálogo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PANEL PRINCIPAL -->
+  <div id="admin-main-panel" class="admin-layout" style="display:none;">
+
+    <header class="admin-header">
+      <a href="javascript:void(0)" onclick="showView('catalog')" class="admin-back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Catálogo
+      </a>
+      <div class="admin-header-sep"></div>
+      <span class="admin-header-title">Gestor de Productos</span>
+      <span class="admin-badge-header">ADMIN</span>
+      <div class="admin-header-actions">
+        <button class="btn-icon" data-theme-toggle aria-label="Cambiar tema">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <a href="https://www.instagram.com/latinmundo_oficial/" target="_blank" rel="noopener" class="btn-outline" style="gap:var(--space-2);">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          Instagram
+        </a>
+        <button class="btn-outline" onclick="adminLogout()">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+          Salir
+        </button>
+      </div>
+    </header>
+
+    <div class="admin-body">
+
+      <!-- Panel izquierdo: lista de productos -->
+      <div class="admin-list-panel">
+        <div class="admin-toolbar">
+          <div class="admin-search-wrap">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            <input id="admin-search" type="search" placeholder="Buscar por nombre o etiqueta..." aria-label="Buscar">
+          </div>
+          <button class="btn-new" onclick="openDrawer(null)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            Nuevo Producto
+          </button>
+          <button class="btn-outline" onclick="exportProducts()" title="Exportar JSON">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Exportar
+          </button>
+          <button class="btn-outline" onclick="exportCatalogJS()" title="Guardar cambios permanentes" style="background:color-mix(in srgb,var(--color-primary) 12%,transparent);border-color:var(--color-primary);color:var(--color-primary);">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+            Publicar cambios
+          </button>
+          <label class="btn-outline" style="cursor:pointer;" title="Importar JSON">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            Importar
+            <input type="file" accept=".json" style="display:none;" onchange="importProducts(event)">
+          </label>
+          <span class="toolbar-count" id="toolbar-count">— productos</span>
+        </div>
+
+        <div class="admin-product-list" id="admin-product-list"></div>
+
+        <div class="admin-footer">
+          <div class="danger-actions">
+            <button class="btn-danger" onclick="resetProducts()">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.63"/></svg>
+              Restaurar por defecto
+            </button>
+          </div>
+          <div class="admin-footer-right">
+            <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer" style="font-size:var(--text-xs);color:var(--color-text-faint);">Created with Perplexity Computer</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="drawer-backdrop" id="drawer-backdrop" onclick="closeDrawer()"></div>
+
+      <aside class="admin-drawer hidden" id="admin-drawer" aria-label="Editor de producto">
+        <div class="drawer-header">
+          <div>
+            <p class="drawer-title" id="drawer-title">Nuevo Producto</p>
+            <p class="drawer-subtitle" id="drawer-subtitle">Rellena los campos y guarda</p>
+          </div>
+          <button class="btn-drawer-close" onclick="closeDrawer()" aria-label="Cerrar editor">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+
+        <form id="product-form" novalidate>
+          <input type="hidden" id="product-id">
+          <div class="drawer-body">
+
+            <div class="field-group">
+              <label class="field-label" for="field-name">
+                Nombre del producto <span class="required">*</span>
+              </label>
+              <input type="text" id="field-name" class="field-input" placeholder="Ej: CBSé Yerba Mate Frutos del Bosque" required>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                Etiquetas
+              </label>
+              <div class="tag-input-wrap" id="tag-input-wrap" onclick="focusTagInput()"></div>
+              <p class="field-hint">Escribe una etiqueta y pulsa <kbd style="background:var(--color-surface-offset);padding:1px 5px;border-radius:4px;font-size:10px;border:1px solid var(--color-border);">Enter</kbd> o <kbd style="background:var(--color-surface-offset);padding:1px 5px;border-radius:4px;font-size:10px;border:1px solid var(--color-border);">,</kbd> para añadirla.</p>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="field-description">Descripción</label>
+              <textarea id="field-description" class="field-input field-textarea" placeholder="Describe el producto: origen, formato, características..."></textarea>
+            </div>
+
+            <div class="field-row">
+              <div class="field-group">
+                <label class="field-label" for="field-price">Precio</label>
+                <input type="text" id="field-price" class="field-input" placeholder="Ej: 3,99 €">
+                <p class="field-hint">Vacío → muestra "Consultar precio"</p>
+              </div>
+              <div class="field-group">
+                <label class="field-label" for="field-badge">Destacado</label>
+                <div class="badge-select-wrap">
+                  <select id="field-badge" class="field-select">
+                    <option value="">Sin destacado</option>
+                    <option value="nuevo">🆕 Nuevo</option>
+                    <option value="popular">⭐ Popular</option>
+                    <option value="premium">💎 Premium</option>
+                    <option value="fresco">🌿 Fresco</option>
+                    <option value="oferta">🔥 Oferta</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <p class="drawer-section-title">Imagen del producto</p>
+
+            <div class="field-group">
+              <label class="field-label">Emoji (si no hay imagen)</label>
+              <div class="emoji-row">
+                <div class="emoji-box" id="emoji-preview-box">🛒</div>
+                <input type="text" id="field-emoji" class="field-input" placeholder="🧉 🥃 🌽 🐟 🍌..." maxlength="4" style="flex:1;">
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="field-image">URL de imagen</label>
+              <input type="url" id="field-image" class="field-input" placeholder="https://ejemplo.com/imagen.jpg">
+              <div class="image-preview" id="image-preview">
+                <div class="image-preview-placeholder">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                  <span>Sin imagen</span>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /drawer-body -->
+
+          <div class="drawer-footer">
+            <button type="button" class="btn-cancel-drawer" onclick="closeDrawer()">Cancelar</button>
+            <button type="submit" class="btn-save-drawer">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+              Guardar cambios
+            </button>
+          </div>
+        </form>
+      </aside>
+
+    </div><!-- /admin-body -->
+  </div><!-- /admin-main-panel -->
+
+  <div id="admin-toast" class="toast" role="alert" aria-live="assertive"></div>
+</div><!-- /view-admin -->
+
+<div id="toast" class="toast" role="alert" aria-live="assertive"></div>
+
+<script src="catalog.js"></script>
+<script src="admin.js"></script>
+
+</body>
+</html>
