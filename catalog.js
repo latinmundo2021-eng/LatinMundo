@@ -424,7 +424,7 @@ function renderProducts() {
 // ── Card HTML ──────────────────────────────────────────────
 function productCardHTML(p) {
   const priceHTML = p.price
-    ? `<span class="product-price">${p.price}</span>`
+    ? `<span class="product-price">${}</span>`
     : `<span class="product-price no-price">Consultar precio</span>`;
 
   const imgHTML = p.image
