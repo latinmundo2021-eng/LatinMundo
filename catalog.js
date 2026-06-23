@@ -187,7 +187,7 @@ const DEFAULT_PRODUCTS = [
   price: "1.99€",
   badge: "",
   emoji: "🛒",
-  image: "https://static8.depositphotos.com/1526816/999/v/450/depositphotos_9994393-stock-illustration-flower.jpg"
+  image: "https://github.com/latinmundo2021-eng/LatinMundo/blob/ebac416d9601ad696862515a571badf5a4a02087/flor_de_jamaica_tarro.jpeg"
 },
 {
   id: 18,
