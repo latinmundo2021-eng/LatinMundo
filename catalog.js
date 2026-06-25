@@ -181,9 +181,9 @@ const DEFAULT_PRODUCTS = [
 },
 {
   id: 17,
-  name: "Flor de Jamaica 100g",
-  tags: ["flor","infusión"],
-  description: "Flor para infusiones",
+  name: "Flor de Jamaica 150g",
+  tags: ["flor","infusión", "jamaica"],
+  description: "Flor exótica conocida como Flor de Jamaica (o Hibisco) para hacer infusiones y remedios",
   price: "1.99€",
   badge: "",
   emoji: "🛒",
@@ -338,7 +338,148 @@ const DEFAULT_PRODUCTS = [
     badge: "",
     emoji: "🍬",
     image: "https://mercalatino.com/files/product_images/2025/01/13/IMG_0930.jpg"
-  }
+  },
+  {
+  id: 33,
+  name: "Palo Santo",
+  tags: ["incienso", "palo santo", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🪵",
+  image: ""
+},
+{
+  id: 34,
+  name: "Hit Tropical 237ml Cristal",
+  tags: ["bebida", "hit", "tropical", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🧃",
+  image: ""
+},
+{
+  id: 35,
+  name: "Hit Mora 237ml Cristal",
+  tags: ["bebida", "hit", "mora", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🫐",
+  image: ""
+},
+{
+  id: 36,
+  name: "Hit Mora 1L",
+  tags: ["bebida", "hit", "mora", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🧃",
+  image: ""
+},
+{
+  id: 37,
+  name: "Hit Mango 237ml Cristal",
+  tags: ["bebida", "hit", "mango", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🥭",
+  image: ""
+},
+{
+  id: 38,
+  name: "Hit Mango 1L",
+  tags: ["bebida", "hit", "mango", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🧃",
+  image: ""
+},
+{
+  id: 39,
+  name: "Hit Lulo 237ml Cristal",
+  tags: ["bebida", "hit", "lulo", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🍋",
+  image: ""
+},
+{
+  id: 40,
+  name: "Hit Lulo 1L",
+  tags: ["bebida", "hit", "lulo", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🧃",
+  image: ""
+},
+{
+  id: 41,
+  name: "Avena Alpina Original 200ml",
+  tags: ["bebida", "avena", "alpina", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🥛",
+  image: ""
+},
+{
+  id: 42,
+  name: "Avena Alpina Original 1L",
+  tags: ["bebida", "avena", "alpina", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🥛",
+  image: ""
+},
+{
+  id: 43,
+  name: "Guaraná Antártica 330ml",
+  tags: ["bebida", "guaraná", "refresco", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🥤",
+  image: ""
+},
+{
+  id: 44,
+  name: "Guaraná Antártica 1,5L",
+  tags: ["bebida", "guaraná", "refresco", "colombia"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🥤",
+  image: ""
+},
+{
+  id: 45,
+  name: "Flips Rellenos Dulce de Leche 220g",
+  tags: ["snack", "snacks dulces", "dulce de leche", "venezuela"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🍬",
+  image: ""
+},
+{
+  id: 46,
+  name: "Flor de Jamaica Biladi 100g",
+  tags: ["infusion", "flor de jamaica", "biladi"],
+  description: "",
+  price: "",
+  badge: "",
+  emoji: "🌺",
+  image: ""
+}
+  
 ];
 
 // ── Estado (en memoria — permanente en código, temporal en sesión) ──
