@@ -347,7 +347,7 @@ const DEFAULT_PRODUCTS = [
   price: "",
   badge: "",
   emoji: "🪵",
-  image: "https://github.com/latinmundo2021-eng/LatinMundo/blob/4b2d06da4bb22d574d3e68506682d203a1263f0b/palosanto.jpg"
+  image: "https://github.com/latinmundo2021-eng/LatinMundo/eb82510074faed1d7fdbf25db3660bbc21434ad4/palosanto.jpeg"
 },
 {
   id: 34,
